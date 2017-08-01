@@ -1,0 +1,194 @@
+/*=======
+BreadCrumbs
+----------*/
+.breadcrumbs {padding: 10px 0px;}
+.breadcrumbs span.location {color: grey;text-transform: uppercase;font-weight: 400;cursor: progress;font-size: 14px;}
+.breadcrumbs span.delom {padding: 0px 10px;}
+.breadcrumbs span.delom a {color: grey;font-weight: 300;font-size: 14px; transition: all 0.3s ease-in-out;}.breadcrumbs span.delom a:hover{color: #2ab392;cursor: pointer;}
+.breadcrumbs span.current {color: grey;font-weight: 300;font-size: 13px;cursor: no-drop;}
+/*=======
+Tag's
+----------*/
+.tag {padding: 6px 3px;}
+.tag span.yuki {background-color: #2ab392;padding: 2px 4px;border-radius: 3px;transition: all 0.3s ease-in-out;}
+.tag span.yuki:hover {box-shadow: 0px 3px 28px 0px rgba(0, 0, 0, 0.22) inset;}
+.tag span.yuki a{text-transform: uppercase;font-size: 12px;color: #fff;font-family: arial;}
+/*=======
+Judul
+---------*/
+h1.title {cursor: default;color: #000;font-weight: 400;font-size: 2.3em;margin: 5px 0px 0px 0px;}
+/*=======
+PostInformasion
+---------*/
+.postinfo {padding: 6px 2px;}
+.postinfo .author-img {width: 50px;height: 50px;border-radius: 50%;float: left;margin-right: 13px;}
+.postinfo .author-img img {width: 100%;height: 100%;border-radius: 50%;}
+.postinfo .postinfo-caption {padding: 0px 0x;margin: 14px 0px;}
+/*======
+ Setting button
+--------*/
+.postshare {padding: 0px 0px;margin: 4px 0px 40px 0px;}
+.postshare .service {
+    display: block;
+}
+.postshare .facebook {background: #3B5998;}
+.postshare .twitter {background: #55ACEE;}
+.postshare .google {background: #dd4b39;}
+.postshare .service {
+    float: left;
+    width: 115px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    border-radius: 3px;
+    color: #fff;
+    line-height: 32px;
+    text-align: center;
+}
+.postshare .service .label {
+    margin-left: -24px;
+    font-size: 13px;
+}
+/*=========
+ Post Content
+-----------*/
+#post-content {max-width: 99.5%;margin: 10px 0px;padding: 10px 0px;}
+#post-content img {width: 99%;height: 100%;}
+#post-content, #post-content p, #post-content h1, #post-content h2, #post-content span {font-family: ;}
+#post-content, #post-content p {font-weight: 300;}
+#post-content .mynewsimg{padding: 0px;width: auto;}
+img.mynewsimg{position: relative;max-width: 99.5%;}
+#post-content p{margin: 20px 0px}
+/*=========
+ Footer Konten
+-----------*/
+#footer-post1,#footer-post2,#footer-post3 {padding: 1px 1px;margin: 12px 0px;}
+/* ====== #footer-post1 ====== */
+.moretag {padding: 6px 31px;}
+.moretag span.izuki {
+    padding: 9px 17px;
+    background: #f6f6f6;
+    border: 0;
+    color: #aaa;
+    font-size: 11px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    line-height: 28px;
+    -webkit-font-smoothing: initial;
+    transition: all .25s ease-in-out;}
+.moretag span.izuki:hover {background-color: #000;}
+.moretag span.izuki:hover a{color: #fff !important}
+.moretag span.izuki a{font-size: 11px;letter-spacing: .05em;text-transform: uppercase;line-height: 28px;-webkit-font-smoothing: initial;color: grey;font-family: arial;}
+
+.navigate-posts {
+    margin: 10px 0px;
+    padding: 28px 0;
+    border-bottom: 1px solid #d9d9d9;
+    border-top: 1px solid #d9d9d9;
+}
+.navigate-posts .previous {
+    padding-left: 21px;
+    text-align: right;
+}
+.navigate-posts .next {
+    text-align: left;
+    border-left: 1px solid #d9d9d9;
+    padding-right: 21px;
+}
+.navigate-posts .previous, .navigate-posts .next {
+    display: table-cell;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 35px;
+}
+.navigate-posts .previous span.link,.navigate-posts .next span.link {display: inline-block}
+.navigate-posts span.link a{color: #333;transition: all .25s ease-in-out;}
+.navigate-posts span.link:hover a{color: #2ab392;}
+.navigate-posts span.tiang{margin: 0px 0px;padding: 0px 0px;}
+.navigate-posts span.tiang i{text-align: center;}
+
+/* ====== #footer-post2 ====== */
+/*BOX AUTHOR*/
+.boxauthor{
+    position:relative;    
+    border:1px solid #d6d6d6;
+    background:#fff;
+    box-shadow:0 0 5px #444 inset;
+    margin:25px 0 15px;
+    padding:10px;
+}
+.boxtitle h3{
+    color:#000;
+    font:bold 15px Electrolize;
+    background:#f6f6f6;
+    width:103.3%;
+    display:block;
+    position:relative;
+    border:1px solid #ddd;
+    box-shadow:0 0 5px grey inset,0px 0 5px white;
+    margin:0 0 0 -22px;
+    padding:7px 0 7px 25px
+}
+.boxtitle h3:before{content:&#39;&#39;;position:absolute;bottom:-10px;left:0;width:0;height:0;border-color:#333 transparent transparent;border-style:solid;border-width:10px 0 0 10px}
+.boxtitle h3:after{content:&#39;&#39;;position:absolute;bottom:-10px;right:0;width:0;height:0;border-color:transparent transparent transparent #333;border-style:solid;border-width:0 0 10px 10px}
+.boxauthor_photo{
+    float:right;
+    background:#f6f6f6;
+    position:relative;
+    z-index:999;
+    box-shadow:0 0 5px #000;
+    margin:-21px 0 5px;
+    padding:30px 5px 5px
+}
+.boxauthor_photo:before{content:&#39;&#39;;position:absolute;top:0;right:135px;width:0;height:0;border-color:transparent transparent #333;border-style:solid;border-width:0 0 10px 10px}
+.boxauthor_photo:after{content:&#39;&#39;;position:absolute;top:0;right:-10px;width:0;height:0;border-color:transparent transparent #333;border-style:solid;border-width:0 10px 10px 0}
+.boxauthor_photo img{width:120px;height:120px;border:2px solid #444}
+.boxcontent{
+    font:12px/18px Electrolize,sans-serif;text-align:justify;
+    color:#000;
+    float:left;
+    top:5px;
+    left:0;
+    display:block;
+    position:relative;
+    width:400px;
+}
+.boxcontent a{
+    color:#3B5998;
+}
+.boxsocial{
+    background:#f6f6f6;
+    margin-left:-22px;
+    color: #000;
+    width:100%;
+    overflow:hidden;
+    border:1px solid #ddd;
+    box-shadow:0 0 5px grey inset,0px 0 5px white;
+    padding:5px 5px 5px 40px
+}
+.boxsocial :before{content:&#39;&#39;;position:absolute;bottom:0;left:-12px;width:0;height:0;border-color:#ddd transparent transparent;border-style:solid;border-width:10px 0 0 10px}
+.boxsocial :after{content:&#39;&#39;;position:absolute;bottom:0;right:-12px;width:0;height:0;border-color:transparent transparent transparent #f6f6f6;border-style:solid;border-width:0 0 10px 10px}
+.boxsocial a{text-align:center;background:#f6f6f6;display:block;color:#000!important;font:bold 12px Electrolize,sans-serif;text-decoration:none;border:1px solid #ddd;transition:all 1s ease;box-shadow:0 0 5px #000;padding:7px 0;}
+.boxsocial a:hover{box-shadow:0px 2px 1px 0 rgba(221,211,221,1) inset;}
+.boxsocial div{float:left;max-resolution: res;-right:6px;width:88px}
+.boxsocial .boxsocialtitle{font:bold 12px Electrolize,sans-serif;text-align:center;text-transform:uppercase;display:block;width:107px;border:1px solid #d6d6d6;box-shadow:0 0 5px #444 inset;padding:7px 22px;margin-right: 6px;}
+/* END AUTHOR */
+
+.related-post {padding: 5px;margin: 13px 0px;}
+.related-post .headrelated{background-color: #f6f6f6;border-bottom: 1px solid #d9d9d9;border-top: 1px solid #d9d9d9;font-size: 17px;padding: 6px 20px;margin: 15px 0px;}
+.related-konten .related-img {width: 100%;text-align: center;overflow: hidden;}
+@media only screen and (max-width: 766px){
+    .related-konten .related-img img {width: 100%;max-height: 250px;filter: brightness(70%)blur(1px);transition: all 1.23s ease-in-out}
+    .related-konten .related-img:hover img {filter: brightness(90%);transform: scale(1.1);}
+}
+@media only screen and (min-width: 767px){
+    .related-konten .related-img img {width: 100%;height: 200px;filter: brightness(70%)blur(1px); transition: all 1.23s ease-in-out}
+    .related-konten .related-img:hover img {filter: brightness(90%);transform: scale(1.1);}
+}
+.related-konten h2 {font-size: 16px;font-weight: 500;letter-spacing: .02em;line-height: 16px;font-family: sans-serif;margin: 0px;padding: 1px;padding-top:9px;}
+.related-konten h2 a{color: #333;}.related-konten h2:hover a{color: #3B5998;}
+.related-konten h3 {color: grey;font-size: 12px;font-weight: 500;letter-spacing: .02em;line-height: 16px;font-family: sans-serif;margin: 10px 0px;padding: 1px;}
+/* ====== #footer-post3 ====== */
+#post-content figure{
+    float:left;
+    width: 100% !important;
+}
