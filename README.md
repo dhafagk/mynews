@@ -1,0 +1,2 @@
+# mynews
+Mynews Jejaring
